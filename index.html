@@ -15,20 +15,30 @@
   </head>
   <body class="">
     <!-- Backgorund Image -->
-    <div
+     
+    <!-- <div
       class="h-[calc(100vh-64px)] lg:h-[calc(100vh-96px)] fixed top-16 lg:top-24 -z-10 mx-auto w-full"
     >
       <img
         src="./src/IMG_1877.png"
         alt="Kieran's Birthday Party"
-        class="object-cover w-full h-full lg:object-center lg:object-contain"
+        class="object-cover w-full h-full lg:object-center "
+      />
+    </div> -->
+    <div
+      class="h-[calc(100vh-64px)] lg:h-full fixed top-16 lg:top-0 -z-10 mx-auto w-full"
+    >
+      <img
+        src="./src/IMG_1877.png"
+        alt="Kieran's Birthday Party"
+        class="object-cover w-full h-full lg:object-center "
       />
     </div>
 
     <!-- Header -->
-    <header class="fixed w-full top-0 z-10">
+    <header class="fixed w-full lg:w-3/4 mx-auto inset-x-0 lg:top-5 z-10 lg:bg-slate-600/90 lg:rounded-lg">
       <nav
-        class="top-0 px-2 py-2 h-16 lg:h-24 flex justify-between items-center bg-white"
+        class="top-0 px-2 py-2 h-16 lg:h-24 flex justify-between items-cente"
       >
         <!-- Hamburger Button  -->
         <div class="lg:hidden w-full flex items-center">
@@ -49,20 +59,20 @@
             class="text-2xl font-noto m-auto text-center text-blue-600"
           >
             Kieran's Birthday Party! </a
-          >"
+          >
         </div>
         <!-- Navbar -->
         <ul
-          class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6"
+          class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6"
         >
           <li>
             <a
-              class="text-sm text-gray-400 hover:text-gray-600 font-bold"
+              class="text-lg text-white hover:text-blue-600 hover:font-bold"
               href="#home"
               >Home</a
             >
           </li>
-          <li class="text-gray-300">
+          <li class="text-gray-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -80,12 +90,12 @@
           </li>
           <li>
             <a
-              class="text-sm text-gray-400 hover:text-gray-600 font-bold"
+              class="text-lg text-white hover:text-blue-600 hover:font-bold"
               href="#details"
               >Details</a
             >
           </li>
-          <li class="text-gray-300">
+          <li class="text-gray-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -104,7 +114,7 @@
 
           <li>
             <a
-              class="text-sm text-gray-400 hover:text-gray-600 font-bold"
+              class="text-lg text-white hover:text-blue-600 hover:font-bold"
               href="#rsvp"
               >RSVP</a
             >
@@ -166,7 +176,7 @@
       </div>
     </header>
     
-    <main class="relative top-16 lg:top-24 h-[calc(100dvh-64px)] lg:h-[calc(100dvh-96px)]">
+    <main class="relative top-16 lg:top-24 h-[calc(100dvh-64px)] lg:h-[calc(100dvh-96px)] ">
       
       <section
         id="home"
@@ -202,14 +212,14 @@
               class="object-cover lg:object-center lg:object-contain my-auto"
             /></div>
             <div class=" row-start-1 row-span-1 col-start-2 col-span-2"><p class="text-left">June 1 - 2:30 to 4:30 pm</p></div>
-            <div class=" row-start-2 row-span-1 col-start-2 col-span-2 flex items-end"><p class="text-left align-bottom text-lg lg:text-3xl font-bold">Discovery Park</p></div>
+            <div class=" row-start-2 row-span-1 col-start-2 col-span-2 flex items-end"><p class="text-left align-bottom text-lg lg:text-2xl font-bold">Discovery Park</p></div>
             <div class=" row-start-3 row-span-1 col-start-2 col-span-2"><p class="text-left lg:text-lg">FAC Deerfoot Campus</p></div>
             <div class=" row-start-4 row-span-1 col-start-2 col-span-2"><p class="text-left lg:text-lg">12345 Deerfoot Trail SE</p></div>
             <div class=" row-start-5 row-span-1 col-start-2 col-span-2"><p class="text-left lg:text-lg">Calgary, AB T2J 7C6</p></div>
             <div class=" row-start-6 row-span-2 lg:row-span-1 col-start-2 col-span-2 flex justify-start"><a
               href="https://www.faccalgary.com/our-programs/play-place"
               target="_blank"
-              class="text-left text-blue-400 underline underline-offset-4 text-wrap lg:text-nowrap"
+              class="text-left text-blue-300 underline underline-offset-4 text-wrap lg:text-nowrap hover:text-blue-400"
               >https://www.faccalgary.com/ our-programs/play-place</a
             ></div>
             <div class=" row-start-8 lg:row-start-7 row-span-1 col-start-2 col-span-2 flex justify-start"><a
@@ -217,7 +227,7 @@
               target="_blank"
             >
               <button
-                class="px-2 lg:px-3 py-1 mt-2 lg:text-lg bg-blue-600 rounded-md text-white text-center"
+                class="px-2 lg:px-3 py-1 mt-2 lg:text-lg bg-blue-600 rounded-md text-white text-center hover:bg-blue-700 hover:shadow-lg"
               >
                 Get Directions
               </button>
@@ -249,7 +259,7 @@
           <p>Please text or call Chelsea (Kieran's mom) to RSVP</p>
           <a
             href="sms:/4038707561"
-            class="text-blue-400 underline underline-offset-4 text-lg"
+            class="text-blue-300 hover:text-blue-400 underline underline-offset-4 text-lg"
             >(403) 870-7561</a
           >
           <div class="mt-4">
@@ -260,7 +270,7 @@
 
             <a
               href="./src/FAC_Indoor_Playground_Release_and_Waiver_of_Liability_2023.docx"
-              class="text-blue-400 underline underline-offset-4 text-lg"
+              class="text-blue-300 hover:text-blue-400 underline underline-offset-4 text-lg"
               download
               >Download Waiver</a
             >

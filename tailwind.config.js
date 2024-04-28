@@ -23,6 +23,7 @@ module.exports = {
     fontFamily: {
       noto: ['"Noto Sans Display", sans-serif'],
       dosis: ['"Dosis", sans-serif'],
+      sans: ['"Nunito Sans Display", sans-serif'],
     },
     plugins: [],
   },
