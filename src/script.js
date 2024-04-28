@@ -48,4 +48,15 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
+
+  // Scroll Helper
+  const scrollHelper = document.querySelector("#scroll-helper");
+
+  document.addEventListener("scroll", function () {
+    if (scrollY > 0) {
+      scrollHelper.classList.add("hidden");
+    } else {
+      scrollHelper.classList.remove("hidden");
+    }
+  });
 });
